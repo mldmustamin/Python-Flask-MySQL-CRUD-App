@@ -8,7 +8,7 @@ app.secret_key = 'many random bytes'
 
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'M@tech@pp1234'
+app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'crud'
 
 mysql = MySQL(app)
